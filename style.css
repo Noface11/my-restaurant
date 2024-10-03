@@ -1,0 +1,106 @@
+body{
+    background-color: red;
+    background-image: linear-gradient(to top, #df0a3b, #a51137, #6d152d, #38121d, #000000);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 115vh;
+}
+.socials {
+    color: white;
+    text-align: center;
+    display: block;
+
+}
+ul{
+    color:white;
+    font-size: 100px;
+    text-shadow: 10px 10px 14px black;
+    margin: 20px;
+}
+.info{
+    color:white;
+    margin:70px;
+    width:20vw;
+    font-size:20px;
+}
+h1,h2,h3{
+    color:white;
+}
+nav a:hover{
+    color: red;
+}
+ .item1{
+     text-align:right;
+     text-decoration:none;
+     display:block;
+     margin-right:20px;
+
+ }
+ *,*::before, *::after{
+    box-sizing:border-box;
+}
+*{
+margin:0;
+}
+.flex-wrapper{
+
+    display: flex;
+    justify-content:right;
+    align-items:right;
+    gap:.5rem;
+    padding: .5rem;
+    margin-right:40px;
+}
+.sym{
+    display:flex;
+    max-width: 3%;
+   }
+h2,h3,h5{
+    text-align:center;
+}
+.name{
+    font-size:20px;
+    text-align:center;
+}
+.desc{
+    font-size:15px;
+    text-align:center;
+}
+.fundo{
+    max-width:250px;
+    display:block;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+h4{
+    text-align:center;
+    color:white;
+    font-size:50px
+}
+.night{
+    width:550px;
+    height:550px;
+    display:block;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+h6{
+    color:white;
+    font-size:25px;
+}
+.container {
+    display: flex;
+    align-items:center;
+    flex-direction:row;
+    margin-left:800px;
+}
+.border{
+    width:475px;
+    height:250px;
+    display:block;
+    transform: rotate(90deg);
+}
+
